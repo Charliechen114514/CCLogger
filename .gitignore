@@ -1,0 +1,68 @@
+# ========================
+# CMake 生成内容
+# ========================
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+
+# Ninja 构建系统
+/build.ninja
+/.ninja_deps
+/.ninja_log
+
+# 编译中间文件
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# 自动生成的头文件等（如 timezone.hpp）
+/timezone.hpp
+/generated/
+.cache
+# Qt 或其他 UI 生成
+moc_*
+ui_*
+qrc_*
+
+# 编辑器 & IDE 配置
+.vscode/
+.idea/
+*.user
+*.suo
+*.VC.db
+*.DS_Store
+
+# 临时文件
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# 测试运行时生成
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+test/test_output/
+test/*.out
+test/*.log
+
+# clangd / 编译数据库
+compile_commands.json
+
+# 覆盖率工具
+*.gcno
+*.gcda
+*.gcov
+coverage/
+
+# 包管理
+conan.lock
+conanbuildinfo.*
